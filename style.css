@@ -1,0 +1,41 @@
+h1 {
+  text-align:center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  height: 300px;
+  font-family: arial;
+  position: relative;
+}
+.title {
+  color: grey;
+	font-style: bold;
+  padding: 10px 0px 5px 15px;
+}
+.content{
+  padding: 5px 0px 5px 15px;
+}
+.author{
+  position: absolute;
+  bottom: 8px; 
+  left: 16px;
+}
+.column{
+	float: left;
+  max-height: 600px;
+  width: 31%;
+  padding: 0 10px 20px 10px;    
+}
+.row{
+	align-content: center;
+	padding: 15px 15px 15px 20px;
+}
+@media screen and (max-width: 600px){
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

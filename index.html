@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="mydata.json"></script>
+  <script type="text/javascript" >
+    function createCard(title,description,author_name) {
+      const htmlstring='<div class="column"><div class="card"><h3 class="title">'+title+'</h3><p class="content">'+description+'</p><p class="author">'+author_name+'</p></div></div>';
+        return htmlstring;
+       };
+    function load() {
+      var mydata =data;
+      alert(mydata.length);
+      var main= document.getElementById("content");
+      for(var i = 0;i < data.length; i++)
+        {
+          var htmlstr=createCard(data[i].title,data[i].description,data[i].authorname);
+          main.innerHTML += htmlstr;
+        }
+    }
+  </script>
+  </head>
+    <body onload="load()">
+        <h1>Opengenus Offline</h1>
+        <div id="content" class="row">
+
+        </div>
+    </body>
+</html>
