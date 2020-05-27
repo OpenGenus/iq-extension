@@ -1,0 +1,17 @@
+data = [
+	{"title":"Number of substrings divisible by 8 but not 3",
+	 "description":"We need to find total number of substrings that are divisible by 8 but not 3 in the given string. For example, consider the string 356, this contains 1 substring that is divisible by 8 but not 3 i.e, 56, note that 3, 5, 6, 35, 356 aren't divisible by 8 and hence don't contribute towards the solution.",
+	"authorname":"SHWETA BHARDWAJ",
+	"URL_article":"https://iq.opengenus.org/number-of-substrings-divisible-by-8-but-not-3/",
+	"URL_discuss":""},
+	{"title":"Sorting a 2 Dimensional (2D) vector in C++",
+	 "description":"In this article, we will explore different ways to sort a 2 dimensional (2D) vector in C++ which includes sorting by row, column, a specific row or a specific column.",
+	"authorname":"SAHIL SILARE",
+	"URL_article":"https://iq.opengenus.org/sort-2d-vector-in-cpp/",
+	"URL_discuss":"https://discourse.opengenus.org/t/sorting-a-2-dimensional-2d-vector-in-c/7805"},
+	{"title":"Implement Memory Efficient Applications in Node.JS",
+	 "description":"Node.JS provides us with great APIs, modules, etc. for optimizing the code that is being run on Random Access Memory (RAM). With the help of the inbuilt tools provided by Node, we can change the way how our software runs in a system.",
+	"authorname":"Pranjal Srivastava",
+	"URL_article":"https://iq.opengenus.org/memory-efficient-nodejs-application/",
+	"URL_discuss":""}
+];
